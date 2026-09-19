@@ -1,0 +1,32 @@
+13. Printing statistics.
+
+=== sha ===
+
+   Number of wires:               1663
+   Number of wire bits:           7177
+   Number of public wires:          10
+   Number of public wire bits:     266
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                853
+     sky130_fd_sc_hd__a21oi_1      100
+     sky130_fd_sc_hd__a221oi_1      94
+     sky130_fd_sc_hd__a22oi_1        2
+     sky130_fd_sc_hd__and3_1         3
+     sky130_fd_sc_hd__dfxtp_1      166
+     sky130_fd_sc_hd__lpflow_inputiso1p_1      2
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__maj3_1        61
+     sky130_fd_sc_hd__nand2_1       93
+     sky130_fd_sc_hd__nand2b_1       1
+     sky130_fd_sc_hd__nor2_1       100
+     sky130_fd_sc_hd__nor3_1         4
+     sky130_fd_sc_hd__nor3b_1       94
+     sky130_fd_sc_hd__o21a_1         1
+     sky130_fd_sc_hd__o21ai_0       35
+     sky130_fd_sc_hd__xnor2_1       60
+     sky130_fd_sc_hd__xor2_1        33
+
+   Chip area for module '\sha': 7782.464000
+

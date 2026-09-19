@@ -1,0 +1,29 @@
+VCD info: dumpfile Sim.vcd opened for output.
+time = 0 | multiplier = xxxxxxxx | multiplicand = xxxxxxxxxxxxxxxx | rst = x | start = x | product = xxxxxxxxxxxxxxxx 
+time = 10000 | multiplier = 00000000 | multiplicand = 0000000000000000 | rst = 1 | start = 0 | product = xxxxxxxxxxxxxxxx 
+time = 15000 | multiplier = 00000000 | multiplicand = 0000000000000000 | rst = 1 | start = 0 | product = 0000000000000000 
+time = 21000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 1 | product = 0000000000000000 
+time = 31000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000000000000000 
+time = 65000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000000091a2b3c0 
+time = 75000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 00000001b4e81b40 
+time = 105000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000000acf135740 
+time = 125000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000002f37c04740 
+time = 145000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 000000c0da740740 
+time = 155000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 000001e41fdb8740 
+time = 165000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000042aaaaa8740 
+time = 185000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 00000d44d5e68740 
+time = 215000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 000056162fc68740 
+time = 225000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0000e7b8e3868740 
+time = 235000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 00020afe4b068740 
+time = 255000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 00069813e9068740 
+time = 265000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 000fb23f25068740 
+time = 285000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 00341aec15068740 
+time = 295000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 007cec45f5068740 
+time = 305000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 010e8ef9b5068740 
+time = 315000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 0231d46135068740 
+time = 325000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 04785f3035068740 
+time = 335000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 090574ce35068740 
+time = 345000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 121fa00a35068740 
+Multiplier = 4275878552 | Multiplicand = 305419896 | Product =  1305938382660470592 | Expected =  1305938382660470592 | Pass = 1 
+Simulation Complete!
+sha_tb.sv:53: $finish called at 346000 (1ps)
