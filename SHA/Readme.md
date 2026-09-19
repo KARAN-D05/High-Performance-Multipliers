@@ -1,7 +1,7 @@
 # Shift-and-Add Multiplier (SHA)
 A 32-bit iterative Shift-and-Add multiplier implementing unsigned 32-bit × 32-bit multiplication over 32 clock cycles.
 
-The baseline implementation uses the synthesizer-inferred adder from the RTL `+` operator. A second implementation replaces the accumulation adder with a 64-bit Kogge-Stone Adder (KSA) 
+The baseline implementation uses the synthesizer-inferred adder from the RTL `+` operator. A second implementation replaces the accumulation adder with a 64-bit `Kogge-Stone Adder (KSA)` 
 to characterize the impact of parallel-prefix carry computation on multiplier PPA and timing.
 
 Both implementations were verified through RTL simulation and gate-level simulation.
