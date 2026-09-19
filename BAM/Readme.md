@@ -4,7 +4,7 @@ The multiplier generates 1024 partial products using AND operations and reduces 
 The implementation was characterized using the `Sky130 HD` standard-cell library and verified through RTL simulation and gate-level simulation.
 
 <p align="center">
-  <img src="images/bam_waveform.png" width="900"/>
+  <img src="images/bam_waveform.png" width="1000"/>
   <br>
   <sub>32-Bit Braun Array Multiplication</sub>
 </p>
