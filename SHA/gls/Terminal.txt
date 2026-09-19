@@ -1,4 +1,3 @@
-VCD info: dumpfile Sim.vcd opened for output.
 time = 0 | multiplier = xxxxxxxx | multiplicand = xxxxxxxxxxxxxxxx | rst = x | start = x | product = xxxxxxxxxxxxxxxx 
 time = 10000 | multiplier = 00000000 | multiplicand = 0000000000000000 | rst = 1 | start = 0 | product = xxxxxxxxxxxxxxxx 
 time = 15000 | multiplier = 00000000 | multiplicand = 0000000000000000 | rst = 1 | start = 0 | product = 0000000000000000 
@@ -25,5 +24,3 @@ time = 325000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 
 time = 335000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 090574ce35068740 
 time = 345000 | multiplier = fedcba98 | multiplicand = 0000000012345678 | rst = 0 | start = 0 | product = 121fa00a35068740 
 Multiplier = 4275878552 | Multiplicand = 305419896 | Product =  1305938382660470592 | Expected =  1305938382660470592 | Pass = 1 
-Simulation Complete!
-sha_tb.sv:53: $finish called at 346000 (1ps)
