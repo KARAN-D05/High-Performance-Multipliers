@@ -6,6 +6,12 @@ to characterize the impact of parallel-prefix carry computation on multiplier PP
 
 Both implementations were verified through RTL simulation and gate-level simulation.
 
+<p align="center">
+  <img src="images/sha_waveform.png" width="900"/>
+  <br>
+  <sub>32-Bit Multiplication</sub>
+</p>
+
 ## Features
 
 - 32-bit × 32-bit unsigned multiplication
