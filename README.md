@@ -16,10 +16,10 @@ The following table summarizes post-synthesis implementation results obtained us
 
 > Sky130HD
 
-| Module | Area | Critical Path | Estimated Fmax | Power | ADP | PDP |
+| Module | Area (µm²) | Critical Path (ns) | Estimated Fmax (MHz) | Power (µW) | ADP (µm²·ns) | PDP (µW.ns) |
 |---|---|---|---|---|---|---|
-| [SHA](./SHA) | 9266.3872 µm² | 6.20 ns | ~161.3 MHz | 807 µW | 57449.60 µm²·ns | 5003.40 µW·ns |
-| [BAM](./BAM) | 36198.4672 µm² | 34.28 ns | ~29.17 MHz | 523 mW | 1240883.06 µm²·ns | 17928.44 mW·ns |
+| [SHA](./SHA) | 9266.3872 | 6.20 | ~161.3 | 807 | 57449.60 | 5003.40 |
+| [BAM](./BAM) | 36198.4672 | 34.28 | ~29.17 | 523000 | 1240883.06 | 17928440 |
 
 > ADP (Area-Delay Product): Area × critical-path delay; lower values indicate better area-timing efficiency.
 >
