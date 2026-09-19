@@ -33,6 +33,12 @@ Because the evaluated multiplier architectures use different execution models, F
 | Shift-and-Add Multiplier| 32 | 198.4 ns | ~5.04 Million/s |
 | Braun Array Multiplier | 1 | 34.28 ns | ~29.17 Million/s |
 
+### Relative Performance
+| Architecture      | Area vs. SHA | Fmax vs. SHA | Power vs. SHA | Latency / Multiplication vs. SHA | Multiplications / Second vs. SHA | ADP vs. SHA | PDP vs. SHA |
+| ---------------------- | --------------- | --------------- | ---------------- | ----------------------------------- | ----------------------------------- | -------------- | -------------- |
+| Shift-and-Add Multiplier |         1.00× |            1.00× |             1.00× |                                1.00× |                                1.00× |           1.00× |           1.00× |
+| Braun Array Multiplier |           3.91× |            0.18× |           648.08× |                            **0.17×** |                            **5.79×** |          21.61× |        3586.87× |
+
 # 📜License
 - Source code and HDL files are licensed under the MIT License.
 - Documentation, diagrams, images, and PDFs are licensed under Creative Commons Attribution 4.0 (CC BY 4.0).
