@@ -1,4 +1,3 @@
-VCD info: dumpfile Sim.vcd opened for output.
 time = 0 | multiplier = 00000000 | multiplicand = 00000000 | product = 0000000000000000
 time = 10000 | multiplier = 00000004 | multiplicand = 00000004 | product = 0000000000000010
 time = 20000 | multiplier = 0000000a | multiplicand = 00000007 | product = 0000000000000046
@@ -11,5 +10,3 @@ time = 80000 | multiplier = 80000000 | multiplicand = 00000002 | product = 00000
 time = 90000 | multiplier = ffffffff | multiplicand = ffffffff | product = fffffffe00000001
 time = 100000 | multiplier = aaaaaaaa | multiplicand = 00000003 | product = 00000001fffffffe
 time = 110000 | multiplier = fedcba98 | multiplicand = 12345678 | product = 121fa00a35068740
-Simulation Complete!
-bam_tb.sv:72: $finish called at 111000 (1ps)
