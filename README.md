@@ -18,7 +18,7 @@ The following table summarizes post-synthesis implementation results obtained us
 
 | Module | Area (µm²) | Fmax (MHz) | Critical Path (ns) | Power (µW) | ADP (µm²·ns) | PDP (µW.ns) |
 |---|---|---|---|---|---|---|
-| [SHA](./SHA) | 9266.3872 | ~161.3 MHz | 6.20 | 807 | 57449.60 | 5003.40 |
+| [SHA](./SHA) | 9266.3872 | ~161.3 | 6.20 | 807 | 57449.60 | 5003.40 |
 | [BAM](./BAM) | 36198.4672 | ~29.17 | 34.28 | 523000 | 1240883.06 | 17928440 |
 
 > ADP (Area-Delay Product): Area × critical-path delay; lower values indicate better area-timing efficiency.
