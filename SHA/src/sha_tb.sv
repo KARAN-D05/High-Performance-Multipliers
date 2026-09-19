@@ -54,7 +54,7 @@ module testbench;
     #1;
 
     $display("Multiplier = %d | Multiplicand = %0d | Product = %d | Expected = %d | Pass = %d ", multiplier, multiplicand, product, multiplier * multiplicand, multiplier * multiplicand == product);
-    $display("Simulation Complete!");
+    $display("Simulation Complete");
     $finish;
 
   end
