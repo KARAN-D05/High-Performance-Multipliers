@@ -1,4 +1,4 @@
-# 🚀 High-Performance-Multipliers
+# ✖ High-Performance-Multipliers
 
 A study and implementation of high-performance binary multiplier architectures, focusing on how different multiplication strategies translate into hardware.
 The primary characterization uses the `Sky130 HD` standard-cell library
