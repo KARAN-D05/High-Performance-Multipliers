@@ -1,5 +1,3 @@
-16. Printing statistics.
-
 === bam ===
 
    Number of wires:              11262
