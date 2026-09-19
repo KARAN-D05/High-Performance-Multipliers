@@ -29,7 +29,7 @@ The following table summarizes post-synthesis implementation results obtained us
 Because the evaluated multiplier architectures use different execution models, Fmax alone does not fully describe multiplication performance. Iterative architectures perform one multiplication over multiple clock cycles, while combinational architectures produce one result per operation.
 
 | Architecture | Estimated Fmax (MHz) | Cycles / Multiplication | Latency / Multiplication | Multiplications / Second |
-|---|--- |--- |--- |
+|---|---|----|--- |--- |
 | Shift-and-Add Multiplier| ~161.3 | 32 | 198.4 ns | ~5.04 Million/s |
 | Braun Array Multiplier | ~29.17 | 1 | 34.28 ns | ~29.17 Million/s |
 
