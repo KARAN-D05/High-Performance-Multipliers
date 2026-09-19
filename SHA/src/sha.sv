@@ -1,5 +1,6 @@
 `default_nettype none
 `include "ksa.sv"
+// ksa.sv - https://github.com/KARAN-D05/High-Performance-Adder-Architectures/blob/main/KSA/src/ksa.sv
 
 module sha #(
     parameter WIDTH = 32
