@@ -1,3 +1,4 @@
+// Braun Array Multiplier
 `default_nettype none
 
 module bam #(
