@@ -29,41 +29,27 @@ Tool: Yosys
 |---|--- |--- |
 | Width | 32 × 32-bit | 32 × 32-bit |
 | Product Width | 64-bit | 64-bit |
-| Area | 31911.856 µm² | 31639.0944 µm² |
+| Area | 31911.856 µm² | 40904.2304 µm² |
 
 ## Static Timing Analysis
 
 | Metric | Wallace + RCA | Wallace + KSA |
 |---|---|---|
-| Critical Path | 18.53 ns | 15.25 ns |
-| Estimated Fmax | ~53.97 MHz | ~65.57 MHz |
+| Critical Path | 18.53 ns | 13.66 ns |
+| Estimated Fmax | ~53.97 MHz | ~73.20 MHz |
 
 ## Power
 
 | Metric | Wallace + RCA | Wallace + KSA |
 |---|---|---|
-| Total Power | 117 mW | 115 mW |
+| Total Power | 117 mW | 159 mW |
 
 ## Latency & Throughput
 
 | Metric | Wallace + RCA | Wallace + KSA |
 |---|--- |--- |
 | Cycles / Multiplication | 1 | 1 |
-| Critical Path | 18.53 ns | 15.25 ns |
-| Estimated Fmax | ~53.97 MHz | ~65.57 MHz |
-| Latency / Multiplication | 18.53 ns | 15.25 ns |
-| Throughput | ~53.97 M/s | ~65.57 M/s |
-
-## PPA Analysis
-
-| Architecture | Area (µm²) | Critical Path (ns) | Estimated Fmax | Power (µW) | ADP (µm²·ns) | PDP (µW·ns) |
-|---|---|---|---|---|---|---|
-| Wallace + RCA | 31911.856 | 18.53 | ~53.97 MHz | 117000 | 591327.49 | 2163965.68 |
-| Wallace + KSA | 31639.0944 | 15.25 | ~65.57 MHz | 115000 | 482195.69 | 1757127.50 |
-
-## Relative Comparison
-
-| Architecture | Area vs RCA | Fmax vs RCA | Power vs RCA | Latency vs RCA | Throughput vs RCA | ADP vs RCA | PDP vs RCA |
-|---|---|---|---|---|---|---|---|
-| Wallace + RCA | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× |
-| Wallace + KSA | 0.99× | 1.21× | 0.98× | 0.82× | 1.21× | 0.82× | 0.81× |
+| Critical Path | 18.53 ns | 13.66 ns |
+| Estimated Fmax | ~53.97 MHz | ~73.20 MHz |
+| Latency / Multiplication | 18.53 ns | 13.66 ns |
+| Throughput | ~53.97 M/s | ~73.20 M/s |
