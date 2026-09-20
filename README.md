@@ -40,7 +40,7 @@ Because the evaluated multiplier architectures use different execution models, F
 ### Relative Performance
 > Baseline: Shift-and-Add Multiplier
 
-| Architecture | Area | Fmax | Power | Latency / Mult | Mults / Second | ADP | PDP |
+| Architecture | Area | Fmax | Power | Latency / M | M / Second | ADP | PDP |
 |---|---|---|---|---|---|---|---|
 | Shift-and-Add Multiplier | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× | 1.00× |
 | Braun Array Multiplier | 3.91× | 0.18× | 648.08× | **0.17×** | **5.79×** | 21.60× | 3583.25× |
