@@ -7,7 +7,7 @@ Two implementations use different final carry-propagate adders: a 64-bit Ripple-
 PPA and timing to be characterized.
 
 <p align="center">
-  <img src="images/dtm_waveform.png" width="1000"/>
+  <img src="images/dtm_waveform.png" width="1200"/>
   <br>
   <sub>32-Bit Dadda Tree Multiplication</sub>
 </p>
