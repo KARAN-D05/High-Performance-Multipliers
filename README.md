@@ -23,10 +23,6 @@ The following table summarizes post-synthesis implementation results obtained us
 | [WTM](./WTM) | 40904.2304 | ~73.20 | 13.66 | 159000 | 558751.79 | 2171940 |
 | [DTM](./DTM) | 40322.4224 | ~176.99 | 5.65 | 154000 | 227821.69 | 870100 |
 
-> ADP (Area-Delay Product): Area × critical-path delay; lower values indicate better area-timing efficiency.
->
-> PDP (Power-Delay Product): Power × critical-path delay; lower values indicate better power-timing efficiency.
-
 ## ⚡ Latency & Throughput Analysis
 Because the evaluated multiplier architectures use different execution models, Fmax alone does not fully describe multiplication performance. Iterative architectures perform one multiplication over multiple clock cycles, while combinational architectures produce one result per operation.
 
