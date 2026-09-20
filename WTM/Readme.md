@@ -1,11 +1,11 @@
 # Wallace Tree Multiplier (WTM)
-A 32-bit combinational Wallace Tree multiplier implementing unsigned 32-bit × 32-bit multiplication using a multi-stage partial-product reduction tree.
 The Wallace Tree reduces the 32 × 32 partial-product matrix through successive Half Adder (HA) and Full Adder (FA) compression stages to produce two final rows.
+
 Two implementations use different final carry-propagate adders: a 64-bit Ripple-Carry Adder (RCA) and a 64-bit Kogge-Stone Adder (KSA), allowing the impact of parallel-prefix carry 
 computation on multiplier PPA and timing to be characterized.
 
 <p align="center">
-  <img src="images/wtm_waveform.png" width="900"/>
+  <img src="images/wtm_waveform.png" width="1000"/>
   <br>
   <sub>32-Bit Wallace Tree Multiplication</sub>
 </p>
