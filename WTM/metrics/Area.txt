@@ -1,51 +1,138 @@
-4. Printing statistics.
-
 === wtm ===
 
-   Number of wires:              14225
-   Number of wire bits:          16852
-   Number of public wires:       14225
-   Number of public wire bits:   16852
+   Number of wires:               2991
+   Number of wire bits:           4483
+   Number of public wires:        2991
+   Number of public wire bits:    4483
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:               4649
-     sky130_fd_sc_hd__a21boi_0       4
-     sky130_fd_sc_hd__a21o_1        17
-     sky130_fd_sc_hd__a21oi_1      218
-     sky130_fd_sc_hd__a22o_1        14
-     sky130_fd_sc_hd__a22oi_1      303
-     sky130_fd_sc_hd__a311o_1        1
-     sky130_fd_sc_hd__a311oi_1       2
-     sky130_fd_sc_hd__a31o_1         7
-     sky130_fd_sc_hd__a31oi_1       73
-     sky130_fd_sc_hd__and2_0        26
-     sky130_fd_sc_hd__and3_1        17
-     sky130_fd_sc_hd__and4_1       160
-     sky130_fd_sc_hd__clkinv_1      90
-     sky130_fd_sc_hd__lpflow_inputiso1p_1     17
-     sky130_fd_sc_hd__lpflow_isobufsrc_1    204
-     sky130_fd_sc_hd__maj3_1       256
-     sky130_fd_sc_hd__nand2_1      602
-     sky130_fd_sc_hd__nand2b_1      93
-     sky130_fd_sc_hd__nand3_1       45
-     sky130_fd_sc_hd__nand4_1      156
-     sky130_fd_sc_hd__nor2_1       353
-     sky130_fd_sc_hd__nor2b_1       43
-     sky130_fd_sc_hd__nor3_1        57
-     sky130_fd_sc_hd__nor4_1         1
-     sky130_fd_sc_hd__o211ai_1       1
-     sky130_fd_sc_hd__o21a_1        74
-     sky130_fd_sc_hd__o21ai_0      281
-     sky130_fd_sc_hd__o21ba_1        7
-     sky130_fd_sc_hd__o21bai_1      54
-     sky130_fd_sc_hd__o22ai_1        2
-     sky130_fd_sc_hd__or3_1         59
-     sky130_fd_sc_hd__or4_1          1
-     sky130_fd_sc_hd__xnor2_1      985
-     sky130_fd_sc_hd__xnor3_1       13
-     sky130_fd_sc_hd__xor2_1       400
-     sky130_fd_sc_hd__xor3_1        13
+   Number of cells:               1955
+     \$paramod\ksa\WIDTH=s32'00000000000000000000000001000000      1
+     fa                            930
+     sky130_fd_sc_hd__and2_0      1024
 
-   Chip area for module '\wtm': 31639.094400
+   Area for cell type \$paramod\ksa\WIDTH=s32'00000000000000000000000001000000 is unknown!
+   Area for cell type \fa is unknown!
 
+   Chip area for module '\wtm': 6406.144000
+
+=== fa ===
+
+   Number of wires:                 13
+   Number of wire bits:             13
+   Number of public wires:          13
+   Number of public wire bits:      13
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     sky130_fd_sc_hd__maj3_1         1
+     sky130_fd_sc_hd__xor3_1         1
+
+   Chip area for module '\fa': 33.782400
+
+=== \$paramod\ksa\WIDTH=s32'00000000000000000000000001000000 ===
+
+   Number of wires:               1058
+   Number of wire bits:           2193
+   Number of public wires:        1058
+   Number of public wire bits:    2193
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                524
+     sky130_fd_sc_hd__a211oi_1       2
+     sky130_fd_sc_hd__a21boi_0       2
+     sky130_fd_sc_hd__a21o_1         8
+     sky130_fd_sc_hd__a21oi_1       47
+     sky130_fd_sc_hd__a221oi_1       1
+     sky130_fd_sc_hd__a22o_1         1
+     sky130_fd_sc_hd__a311oi_1       1
+     sky130_fd_sc_hd__a31o_1         1
+     sky130_fd_sc_hd__a31oi_1       10
+     sky130_fd_sc_hd__a41oi_1        6
+     sky130_fd_sc_hd__and2_0         1
+     sky130_fd_sc_hd__and3_1         1
+     sky130_fd_sc_hd__clkinv_1      10
+     sky130_fd_sc_hd__lpflow_inputiso1p_1      6
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__maj3_1         2
+     sky130_fd_sc_hd__nand2_1      103
+     sky130_fd_sc_hd__nand2b_1       4
+     sky130_fd_sc_hd__nand3_1        2
+     sky130_fd_sc_hd__nand4_1        1
+     sky130_fd_sc_hd__nor2_1        66
+     sky130_fd_sc_hd__nor3_1         4
+     sky130_fd_sc_hd__nor4_1        16
+     sky130_fd_sc_hd__o211ai_1       3
+     sky130_fd_sc_hd__o21a_1         3
+     sky130_fd_sc_hd__o21ai_0       77
+     sky130_fd_sc_hd__o21ba_1        1
+     sky130_fd_sc_hd__o21bai_1       1
+     sky130_fd_sc_hd__o221ai_1       5
+     sky130_fd_sc_hd__o311ai_0       1
+     sky130_fd_sc_hd__o31ai_1        2
+     sky130_fd_sc_hd__o41a_1         3
+     sky130_fd_sc_hd__o41ai_1        3
+     sky130_fd_sc_hd__or3_1          1
+     sky130_fd_sc_hd__or3b_1         1
+     sky130_fd_sc_hd__xnor2_1       90
+     sky130_fd_sc_hd__xor2_1        34
+
+   Chip area for module '\$paramod\ksa\WIDTH=s32'00000000000000000000000001000000': 3080.454400
+
+=== design hierarchy ===
+
+   wtm                               1
+     \$paramod\ksa\WIDTH=s32'00000000000000000000000001000000      1
+     fa                            930
+
+   Number of wires:              16139
+   Number of wire bits:          18766
+   Number of public wires:       16139
+   Number of public wire bits:   18766
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3408
+     sky130_fd_sc_hd__a211oi_1       2
+     sky130_fd_sc_hd__a21boi_0       2
+     sky130_fd_sc_hd__a21o_1         8
+     sky130_fd_sc_hd__a21oi_1       47
+     sky130_fd_sc_hd__a221oi_1       1
+     sky130_fd_sc_hd__a22o_1         1
+     sky130_fd_sc_hd__a311oi_1       1
+     sky130_fd_sc_hd__a31o_1         1
+     sky130_fd_sc_hd__a31oi_1       10
+     sky130_fd_sc_hd__a41oi_1        6
+     sky130_fd_sc_hd__and2_0      1025
+     sky130_fd_sc_hd__and3_1         1
+     sky130_fd_sc_hd__clkinv_1      10
+     sky130_fd_sc_hd__lpflow_inputiso1p_1      6
+     sky130_fd_sc_hd__lpflow_isobufsrc_1      4
+     sky130_fd_sc_hd__maj3_1       932
+     sky130_fd_sc_hd__nand2_1      103
+     sky130_fd_sc_hd__nand2b_1       4
+     sky130_fd_sc_hd__nand3_1        2
+     sky130_fd_sc_hd__nand4_1        1
+     sky130_fd_sc_hd__nor2_1        66
+     sky130_fd_sc_hd__nor3_1         4
+     sky130_fd_sc_hd__nor4_1        16
+     sky130_fd_sc_hd__o211ai_1       3
+     sky130_fd_sc_hd__o21a_1         3
+     sky130_fd_sc_hd__o21ai_0       77
+     sky130_fd_sc_hd__o21ba_1        1
+     sky130_fd_sc_hd__o21bai_1       1
+     sky130_fd_sc_hd__o221ai_1       5
+     sky130_fd_sc_hd__o311ai_0       1
+     sky130_fd_sc_hd__o31ai_1        2
+     sky130_fd_sc_hd__o41a_1         3
+     sky130_fd_sc_hd__o41ai_1        3
+     sky130_fd_sc_hd__or3_1          1
+     sky130_fd_sc_hd__or3b_1         1
+     sky130_fd_sc_hd__xnor2_1       90
+     sky130_fd_sc_hd__xor2_1        34
+     sky130_fd_sc_hd__xor3_1       930
+
+   Chip area for top module '\wtm': 40904.230400
