@@ -17,7 +17,6 @@ computation on multiplier PPA and timing to be characterized.
 - 1024 partial products
 - Multi-stage HA/FA partial-product reduction
 - 64-bit product
-- 64-bit final carry-propagate adder
 - RCA and KSA final-adder implementations
 
 ## Synthesis Results
