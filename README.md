@@ -24,6 +24,7 @@ The following table summarizes post-synthesis implementation results obtained us
 | [DTM](./DTM) | 40322.4224 | ~176.99 | 5.65 | 154000 | 227821.69 | 870100 |
 
 > Note: SHA, WTM, and DTM results shown above use a **64-bit Kogge-Stone Adder (KSA)** as the final carry-propagate adder. A 64-bit Ripple-Carry Adder (RCA) implementation was also evaluated to characterize the impact of the final carry-propagation architecture. RCA results are documented in the respective architecture folders.
+> Final Carry-Propagate stage reuses the adders IP from [High-Performance Adder Architectures](https://github.com/KARAN-D05/High-Performance-Adder-Architectures).
 
 ## ⚡ Latency & Throughput Analysis
 Because the evaluated multiplier architectures use different execution models, Fmax alone does not fully describe multiplication performance. Iterative architectures perform one multiplication over multiple clock cycles, while combinational architectures produce one result per operation.
