@@ -1,0 +1,17 @@
+Startpoint: multiplier[6] (input port)
+Endpoint: booth_digits[11] (output port)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ input external delay
+   0.00    0.00 ^ multiplier[6] (in)
+   0.05    0.05 v _677_/Y (sky130_fd_sc_hd__nand2_1)
+   0.13    0.18 v _678_/X (sky130_fd_sc_hd__and2_0)
+   0.00    0.18 v booth_digits[11] (out)
+           0.18   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+
