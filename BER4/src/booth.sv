@@ -24,7 +24,6 @@ module booth_encoder #(
     endfunction
 
     genvar i;
-
     generate
         for (i = 0; i < NUM_DIGITS; i++) begin : GEN_BOOTH
             if (i == 0) begin
