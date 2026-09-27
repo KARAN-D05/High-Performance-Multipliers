@@ -15,4 +15,3 @@
      sky130_fd_sc_hd__xor2_1        31
 
    Chip area for module '\booth_encoder': 864.579200
-
