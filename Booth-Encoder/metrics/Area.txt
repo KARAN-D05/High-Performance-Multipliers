@@ -1,5 +1,3 @@
-16. Printing statistics.
-
 === booth_encoder ===
 
    Number of wires:                731
