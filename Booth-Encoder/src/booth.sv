@@ -1,5 +1,5 @@
 module booth_encoder #(
-    parameter int WIDTH = 64
+    parameter WIDTH = 64
 ) (
     input  logic signed [WIDTH-1:0] multiplier,
     output logic signed [(3*(WIDTH/2))-1:0] booth_digits
