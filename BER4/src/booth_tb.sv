@@ -30,7 +30,7 @@ module testbench;
       $display("digit[%0d] = %0d (%b)", i, booth_digit[i], booth_digit[i]);
     end
 
-    $display("Simulation Complete");
+    $display("Simulation Complete!");
     $finish;
 
   end
