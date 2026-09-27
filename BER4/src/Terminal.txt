@@ -1,4 +1,4 @@
-﻿Multiplier = fedcba9876543210
+﻿multiplier = fedcba9876543210
 digit[0] = 0 (000)
 digit[1] = 0 (000)
 digit[2] = 1 (001)
