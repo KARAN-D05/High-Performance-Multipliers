@@ -7,7 +7,7 @@ The encoder examines overlapping groups of three multiplier bits and converts th
 
 Each Booth digit is generated from an overlapping group of three multiplier bits:
 
-```text
+```asm
 {q[2i+1], q[2i], q[2i-1]}
 ```
 
@@ -41,7 +41,7 @@ Tool: Yosys
 | Output Width           |                96-bit |
 | Area                   |          864.5792 µm² |
 
-## Static Timing Analysis
+## STA
 
 | Metric         | Radix-4 Booth Encoder |
 | -------------- | --------------------  |
