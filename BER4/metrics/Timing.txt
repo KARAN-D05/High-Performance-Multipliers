@@ -4,7 +4,7 @@ Path Group: unconstrained
 Path Type: max
 
   Delay    Time   Description
----------------------------------------------------------
+--------------------------------------------------------
    0.00    0.00 ^ input external delay
    0.00    0.00 ^ multiplier[6] (in)
    0.05    0.05 v _677_/Y (sky130_fd_sc_hd__nand2_1)
